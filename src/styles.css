@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+ --fonte-madini: "Madimi One", sans-serif;
+ --fonte-poppins: "Poppins", sans-serif;
+ --orange: #ff7000;
+ --blue: #004a76;
+ --dark-blue: #002d47;
+ --grey: rgba(88, 89, 91, 1);
+ --light-grey: rgba(232, 232, 232, 1);
+ --light-grey-2: rgba(247, 247, 247);
+}
+
+*,
+::after,
+::before {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ outline: 0;
+}
+
+body {
+ line-height: 1;
+ font-family: var(--fonte-madini);
+}
+
+ol,
+ul {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+}
+
+blockquote,
+q {
+ quotes: none;
+}
+
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
