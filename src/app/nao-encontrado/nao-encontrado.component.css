@@ -1,0 +1,46 @@
+.container {
+ display: flex;
+ flex-flow: column nowrap;
+ justify-content: center;
+ align-items: center;
+ height: 400px;
+ gap: 1rem;
+ font-family: var(--fonte-madini);
+}
+
+.esquerda {
+ color: rgb(212, 7, 48);
+}
+
+.direita {
+ color: var(--orange);
+}
+
+p {
+ text-align: center;
+ font-size: 1.1rem;
+}
+
+.container i {
+ font-size: 160px;
+ color: rgb(220, 20, 103);
+}
+
+.container h2 {
+ font-size: 44px;
+}
+
+.pagina-inicial {
+ padding: 10px 10px;
+ color: var(--gray);
+ font-size: 22px;
+ text-decoration: none;
+ font-family: var(--fonte-madini);
+ transition: all .3s ease-in-out;
+} 
+
+ .pagina-inicial:hover {
+ background-color: var(--blue);
+ color: #fff;
+ cursor: pointer;
+}
